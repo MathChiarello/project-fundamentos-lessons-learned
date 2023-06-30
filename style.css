@@ -58,10 +58,12 @@ header {
 
 #licoes_aprendidas {
     text-align: left;
+    line-height: 1.5;
 }
 
 #licoes_a_aprender {
     text-align: left;
+    line-height: 1.5;
 }
 
 #artigo {
@@ -88,7 +90,7 @@ header {
 
 #artigo_aside_container {
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 
 #artigo img{
@@ -104,10 +106,32 @@ header {
     font-size: 20px;
 }
 
+#tabela {  
+    display: block;
+    margin:auto;
+    text-align: center;
+    width: 360px;
+    margin-bottom: 30px;
+}
+
+
+#tabela table {
+    border: 2px solid rgb(24, 46, 46);
+    padding: 5px;
+    margin: 15px;
+}
+
+#tabela th {
+    margin: 20px;
+}
+
 #rodape {
     background-color: rgb(33, 115, 110);
     bottom: 0;
+    left: 0;
+    position: relative;
     height: 70px;
+    
 }
 
 #rodape a {
@@ -119,6 +143,7 @@ header {
     padding: 5px;
     border: 1px solid ;
 }
+
 
 
 
